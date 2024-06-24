@@ -22,14 +22,16 @@ body {
     height: 50px;
     width: 100%;
     padding: 1rem;
-    gap 1rem
+    gap: 1rem;
+    position: sticky;
+    z-index: 0;
+    top: 0;
 }
 
 .header picture {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+align-items: center;}
 
 .header nav {
     flex: 1;
@@ -123,3 +125,151 @@ main {
      text-align: center;
     
  }
+
+
+ #section_products { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1rem;
+    width: 100%;
+ }
+
+ #section_products h2 { 
+    color:snow;
+    text-decoration: underline;
+ }
+
+li {
+    list-style: none;
+}
+
+#section_products h3 { 
+    color: snow;
+}
+
+
+#section_products p {
+    color: snow;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: #750E21;
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+max-width: 100%;
+gap: 1rem;
+}
+
+#list li {
+    background-color: #750E21;
+    max-width: 50vh;
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#list li picture {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+#list h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#list p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .75rem;
+    text-align: center;
+    padding: .75rem;
+}
+
+#footer { 
+    width: 100%;
+    background-color: black;
+    height: 35vh;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+#footer img {
+    width: 10vh;
+    height: 10vh;
+}
+
+#footer h2 {
+    color: white;
+}
+
+
+#footer p {
+    color: snow;
+}
+
+#footer h2:hover {
+    text-decoration: underline;
+}
+
+
+#footer p:hover {
+    text-decoration: underline;
+}
+
+
+#hamburguesa {
+    max-width: 1.5rem;
+    align-items: center;
+}
+
+#hamburguesa ul {
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    height: calc(100vh - 75px);
+    top: 3.5rem;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#hamburguesa i { 
+    font-size: 1.5rem;
+}
+
+#menu {
+    display: none;
+}
+
+#menu:checked ~ ul {
+    display: flex;
+}

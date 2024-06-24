@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entregable 2</title>
+    <title>Proyecto Entregables</title>
     <link rel="stylesheet" href="stlyes.css">
-</head>
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
 <body>
 <header class="header">
-<picture><img class="img" src="Imagenes/Ricardo Vasquez.png" alt="Logo"></picture>
+<picture>
+    <img class="img" src="Imagenes/Ricardo Vasquez.png" alt="Logo">
+</picture>
 <nav>
-<a href="#"><b>Inicio</a></b>
+<a href="#section_1"><b>Inicio</a></b>
 <a href="#">¿Quien soy?</a>
-<a href="#">Mis productos</a>
-<a href="#">Contacto</a>
+<a href="#section_products">Servicios</a>
+<a href="#footer">Contacto</a>
+</nav>
+
+<nav id="hamburguesa">
+    <label for="menu"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></label>
+    <input type="checkbox" id="menu">
+    <ul>
+        <li><a href="#section_1"">Inicio</a></li>
+        <li><a href="#">¿Quien soy?</a></li>
+        <li><a href="#section_products">Serivicios</a></li>
+        <li><a href="#footer">Contacto</a></li>
+    </ul>
 </nav>
 </header>
 <main>
@@ -32,10 +47,36 @@
     </section>
     </main>
     <section id="section_3">
-        <p>En esta web, vas a poder seguir el paso a paso de cada uno 
+        <p>Acá podes seguir el paso a paso de cada uno 
             de mis trabajos como desarrollador web. <b>¡Te invito a que te 
             sumes a mi comunidad!</b>
         </p>
     </section>
+<section id="section_products">
+    <h2>SERVICIOS</h2>
+<ul id="list">
+    <li>
+<picture><img src="Imagenes/FrontEnd.png" alt="DesarrolloFrontEnd"></picture>
+<h3>Desarrollo FrontEnd</h3>
+<p>Construyo y diseño la interfaz de usuario de tu sitio web</p>
+
+</li>
+    <li>
+<picture><img src="Imagenes/BackEnd.png" alt="BackEnd"></picture>
+<h3>Desarrollo BackEnd</h3>
+<p>Creación y mantenimiento de la parte de la web que funciona en el servidor y que no es visible para el usuario final.</p>
+    </li>
+        </ul>
+    </section>
+
+
+<footer id="footer">
+<h2>Contacto</h2>
+<p>Vasquez, Ricardo Manuel</p>
+<p>📱 3513-092058</p>
+<picture><img src="Imagenes/Ricardo Vasquez.png" alt="Logo"></picture>
+</footer>
+
+
 </body>
 </html>

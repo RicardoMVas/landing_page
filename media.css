@@ -1,0 +1,260 @@
+@media (max-width: 1024px) {
+    #hamburguesa {
+        display: none;
+    }
+}
+
+/*Responsive tablet*/
+
+@media (max-width: 769px) {
+ 
+#hamburguesa {
+    display: block;
+}
+
+
+    .header nav {
+      display: none;
+    }
+    
+    
+    .header picture {
+     flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .header {
+     width: 100%;
+     padding: 0;
+     margin-right: 0;
+     
+    }
+    
+    
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1vh;
+    }
+    
+    #section_1 {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+    
+    #section_1 h1 {
+      text-align: center;
+      font-size: 3.5rem;
+      margin: 0;
+      width: 50%;
+      
+    }
+    
+    #section_1 p {
+      text-align: center;
+    width: 50%;
+    }
+    
+    
+    #section_2 {
+      display: flex;
+      padding: 1rem;
+      flex-direction: column;
+      margin-top: 1.5rem;
+    }
+    
+    .imgprincipal {
+      width: 300px;
+      height: 300px;
+     
+    }
+    
+    }
+    
+    
+    /*Responsive movil L*/
+    
+    @media (max-width: 426px) {
+      #section_1 h1 {
+        width: 426px;
+        font-size: 2.5rem;
+        margin: 0;
+        
+      }
+    
+      #section_1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 426px;
+      }
+    
+      #section_1 p { 
+        font-size: .75rem;
+      }
+    
+    a {
+      font-size: .5rem;
+    }
+    
+    .imgprincipal {
+      width: 200px;
+      height: 200px;
+    }
+    
+    #section_2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: .75rem;
+      margin-top: 1.5rem;
+    }
+    
+    #section_2 header {
+      font-size: .75rem;
+    }
+    
+    
+    #section_3 p {
+      font-size: .75rem;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    }
+    
+    /*Responsive movil M*/
+    
+    @media (max-width: 376px) {
+     
+      .header {
+        width: 100%;
+        padding: 0;
+        margin-right: 0;
+        
+       }
+     
+     #section_1 h1 {
+        width: 376px;
+        font-size: 2rem;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+      }
+    
+      #section_1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 426px;
+        margin-left: 1rem;
+      }
+    
+      #section_1 p { 
+        font-size: .75rem;
+      }
+    
+    a {
+      font-size: .5rem;
+    }
+    
+    .imgprincipal {
+      width: 200px;
+      height: 200px;
+    }
+    
+    #section_2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: .75rem;
+      margin-top: 1.5rem;
+    }
+    
+    #section_2 header {
+      font-size: .75rem;
+    }
+    
+    
+    #section_3 p {
+      font-size: .75rem;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    
+    }
+    
+    /*Responsive movil S*/
+    
+    @media (max-width: 321px) {
+     
+      .header {
+        width: 100%;
+        padding: 0;
+        margin-right: 0;
+        
+       }
+     
+     #section_1 h1 {
+        width: 321px;
+        font-size: 1.5rem;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+      }
+    
+      #section_1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 426px;
+        margin-left: 1rem;
+      }
+    
+      #section_1 p { 
+        font-size: .75rem;
+      }
+    
+    a {
+      font-size: .5rem;
+    }
+    
+    .imgprincipal {
+      width: 200px;
+      height: 200px;
+    }
+    
+    #section_2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: .75rem;
+      margin-top: 1.5rem;
+    }
+    
+    #section_2 header {
+      font-size: .75rem;
+    }
+    
+    
+    #section_3 p {
+      font-size: .75rem;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    
+    }
